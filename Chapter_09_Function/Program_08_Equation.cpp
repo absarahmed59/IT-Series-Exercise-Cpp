@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void Equation(int w, int x, int y, int z){
+int Equation(int w, int x, int y, int z){
     if(w*w+x*x+y*y==z*z)    return 0;
     else return -1;
 }
